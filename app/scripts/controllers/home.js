@@ -10,7 +10,7 @@
 angular.module('onFireApp')
   .controller('HomeCtrl', function ($scope, $routeParams, $window) {
 
-    console.log($routeParams.imageHash);
+    if(!$routeParams.imageHash) $window.location.href = '/#/1';
 
     $scope.imageHash = $routeParams.imageHash;
 
