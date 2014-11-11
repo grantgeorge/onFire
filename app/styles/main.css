@@ -1,0 +1,106 @@
+body {
+  background: white;
+  color: #dee4e6;
+  text-transform: lowercase;
+  font: 12px "Questrial",sans-serif;
+}
+
+#main-image {
+  cursor: pointer;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: white no-repeat center center fixed;
+  background-size: contain;
+}
+
+#nav-bar-x {
+  margin-right:15px;
+  display: block;
+  top: 0;
+  text-align: center;
+  vertical-align: middle;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  border-bottom: 1px solid #34495e;
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 1;
+}
+
+
+.nav-x {
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  font-size: 20px;
+  border-bottom: 1px solid #d35400;
+  margin-bottom:15px;
+  top: 0;
+  text-align: center;
+  vertical-align: middle;
+  position: fixed;
+  width: 100%;
+  background: #e67e22;
+  z-index: 1;
+}
+
+.ul-x {
+  right:20px;
+  position: absolute;
+  height: 100%;
+  /*right: 0;*/
+  margin: 0 0;
+  padding: 0;
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 20px;
+  border-bottom: 1px solid #d35400;
+}
+
+.li-x {
+  margin-right: 15px;
+  display: inline-block;
+  list-style-type: none;
+  height: 100%;
+  text-align: -webkit-match-parent;
+}
+
+.a-x {
+  color: #fff;
+  text-decoration: none;
+  background: transparent;
+  /*color: -webkit-link;
+  text-decoration: underline;*/
+  cursor: auto;
+  list-style-type: none;
+  text-align: -webkit-match-parent;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+          transition: border .25s linear, color .25s linear, background-color .25s linear;
+
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.a-x:hover {
+  color: #ecf0f1;
+  text-decoration:none;
+}
+
+.a-x:active {
+  color: #bdc3c7;
+}
