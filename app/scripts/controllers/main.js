@@ -16,6 +16,7 @@ angular.module('onFireApp')
 
     $scope.goToNext = function() {
       var next = Math.floor((Math.random()*25)+1);
+      if(next === parseInt($routeParams.imageHash)) next = next + 1;
       $window.location.href = '/#/' + next;
     };
 
