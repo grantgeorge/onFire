@@ -31,18 +31,6 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
-      .when('/hoem', {
-        templateUrl: 'views/hoem.html',
-        controller: 'HoemCtrl'
-      })
-      .when('/home', {
-        templateUrl: 'views/home.html',
-        controller: 'HomeCtrl'
-      })
-      .when('/home/:imageHash', {
-        templateUrl: 'views/home.html',
-        controller: 'HomeCtrl'
-      })
       .otherwise({
         redirectTo: '/'
       });
