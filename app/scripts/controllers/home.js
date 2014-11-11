@@ -16,7 +16,7 @@ angular.module('onFireApp')
 
     $scope.goToNext = function() {
       console.log('goToNext');
-      var next = Math.floor((Math.random()*10)+1);
+      var next = Math.floor((Math.random()*25)+1);
       console.log(next);
       $window.location.href = '/#/home/' + next;
     };
