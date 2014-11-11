@@ -1,6 +1,6 @@
 {
   "name": "onfire",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "express": "^4.10.2",
     "gzippo": "^0.2.0"
